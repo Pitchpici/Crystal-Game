@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="jumbotron jumbotron-fluid"> <!-- //GAME NAME -->
+		<div class="container">
+  			  <h1 class="display-3 text-center">Crystal Game</h1>
+ 		</div>
+	</div>	
+	
+	
+
+	<div class="container-fluid bkbg">
+		<div class="row">
+
+
+	<div class="container-fluid wdth "> <!-- big container -->
+		<div class="row">
+
+	<div class="container j"> <!-- //GAME SCORE AND WINS/LOSSES SECTION 8:4-->
+		<div class="row">
+			<div class="col-5"> 
+				
+				<div class="container-fluid">
+					<div class="row">
+
+						<div class ="col-8 col-xs-12"> <h4> Match this number: </h4> </div>
+						<div id="number" class="col-2 offset-col-2 col-xs-12"></div>
+
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="col-5 offset-col-2">
+
+
+				<div class="container">
+					<div class="row"> 
+						<div class="col-6 col-xs-4"><h4> Wins: </h4> </div>
+						<div id="wins" class="col-6 col-xs-2"></div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-xs-4"><h4> Losses: </h4></div>
+						<div id="losses" class="col-6 col-xs-2"></div>
+					</div>
+				</div>	
+
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-fluid"> <!-- CRYSTALS ROW (4 CRYSTALS) -->
+		<div class="row justify-content-center">
+			<div id="j1" class="btn col-3"><img class="img-fluid" src="assets/images/blue3.jpg" alt="blue crystal"></div>
+			<div id="j2" class="btn col-3"><img class="img-fluid" src="assets/images/green2.jpg" alt="green crystal"></div>
+			<div id="j3" class="btn col-3"><img class="img-fluid" src="assets/images/yellow2.jpg" alt="yellow crystal"></div>
+			<div id="j4" class="btn col-3"><img class="img-fluid" src="assets/images/red2.jpg" alt="red crystal"></div>
+		</div> 
+	</div>
+
+	<div class="container"> <!-- Your score is: row -->
+		<div class="row">
+			<div class="col-3"><h4> Your total score is: </h4></div>
+			<div id="score" class="col-2"></div>
+		</div> 
+	</div>
+
+</div>
+</div>
+
+
+	<footer>
+		<div class="container-fluid ">
+			<div class="row justify-content-center"> 
+				<div class="col-5 index">
+							<h4><strong>Copyright &copy; Roxana Milea</strong></h4>
+				</div>		
+			</div>
+		</div>
+	</footer>
+
+	</div>
+</div> <!-- closing container-fluid background black -->
+
+		
+</body>
+</html>

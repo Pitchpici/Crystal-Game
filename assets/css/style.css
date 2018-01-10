@@ -1,0 +1,51 @@
+.jumbotron {
+    		background-image: url("../images/bg2.jpg");
+    		background-repeat: no-repeat;
+    		background-size: cover;
+            border: none;
+    	}
+
+footer {
+    		position: fixed;
+    		bottom: 0;
+    		text-align: center;
+            width: 100%;
+            color: black;
+            background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+            -moz-transform: scaleY(-1);
+            -o-transform: scaleY(-1);
+            -webkit-transform: scaleY(-1);
+            transform: scaleY(-1);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+            padding: 15px 0px;
+}   
+            	
+.index {
+        -moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipV;
+        -ms-filter: "FlipV";
+        padding: 18px 0px;
+}
+
+.img-fluid {
+    border: 4px solid #B0E0E6;
+}
+
+.img-fluid:hover {
+    border-radius: 25px 100px 30px;
+}
+
+
+.wdth {
+    width: 75%;
+
+}
+
+.bkbg {
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    height: 450px;
+}
